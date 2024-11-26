@@ -58,5 +58,5 @@ async function download() {
   a.click();
   window.URL.revokeObjectURL(url);
   document.body.removeChild(a);
-  toast("QR code downloaded!");
+  toast("QR code ready to download!");
 }
