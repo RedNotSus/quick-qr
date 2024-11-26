@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital@0;1&display=swap");
+
+body {
+  background-color: #282828;
+  font-family: "Sour Gummy", serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #ebdbb2;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 75px;
+}
+
+.input {
+  background-color: #3c3836;
+  border: none;
+  border-radius: 5px;
+  color: #ebdbb2;
+  height: 40px;
+  padding: 0 10px;
+  width: 50%;
+  max-width: 500px;
+  box-sizing: border-box;
+  font: inherit;
+  transition: 0.3s;
+  cursor: text;
+}
+
+.input:focus {
+  outline: none;
+  scale: 1.1;
+  background-color: #504945;
+}
+
+.input:hover {
+  background-color: #504945;
+  scale: 1.1;
+  transition: 0.3s;
+}
+.qrs {
+  background-color: #665c54;
+  border: none;
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: #665c54 0px 0px 10px;
+  z-index: 9999;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 0px;
+}
+
+img {
+  width: 95%;
+  height: 95%;
+  padding: 2.5%;
+  border-radius: 15px;
+}
+
+.qrs:hover {
+  box-shadow: #665c54 0px 0px 20px;
+  transition: 0.2s;
+  scale: 1.1;
+}
+.buttons {
+  background-color: #665c54;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  color: #ebdbb2;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.buttons:hover {
+  background-color: #3c3836;
+  transition: 0.2s;
+  scale: 1.2;
+}
+
+::-moz-selection {
+  background: #458588;
+}
+
+::selection {
+  background: #458588;
+}
+
+.buttomright {
+  position: relative;
+}
+
+.github {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #3c3836;
+  border: none;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: #cad3f5;
+  font-size: 15px;
+}
+
+.github:hover {
+  background-color: #504945;
+  transition: 0.3s;
+  scale: 1.1;
+}
+
+.logo {
+  position: flex;
+  justify-content: center;
+}

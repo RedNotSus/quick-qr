@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="google" content="notranslate" />
+    <script src="/assets/js/font.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <title>Quick QR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/assets/js/script.js"></script>
+    <meta name="description" content="A No BS qr code generator" />
+    <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs@master/qrcode.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+
+<body>
+    <center>
+        <h1 class="heading">Quick QR</h1>
+        <input type="text" name="data" class="input" id="input" />
+        <br><br><br>
+        <div class="qrs" onclick="copy()">
+            <div id="qr" class="img"></div>
+        </div>
+        <br><br>
+        <button onclick="download()" class="buttons"><i class="fa-solid fa-download"></i></button>
+        <button onclick="copy()" class="buttons"><i class="fa-solid fa-clipboard"></i></button>
+
+    </center>
+    <div class="bottomright">
+        <a href="https://github.com/RedNotSus/quick-qr">
+            <button class="github"><i class="fa-brands fa-github logo"></i></button></a>
+    </div>
+</body>
+
+</html>
