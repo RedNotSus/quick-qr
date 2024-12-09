@@ -5,6 +5,8 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 value = params.url;
 if (!value) {
   value = "https://example.com";
+  console.log("No URL parameter found, using example.com");
+  alert("No URL parameter found, using example.com");
 }
 document.addEventListener("DOMContentLoaded", function () {
   let qrCodeContainer = document.getElementById("qr");
